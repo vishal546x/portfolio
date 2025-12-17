@@ -6,50 +6,47 @@ import SkillBar from "@/components/SkillBar";
 import { Code2, Database, Cloud, Palette, Terminal, Smartphone } from "lucide-react";
 
 const skillCategories = [
-  {
-    title: "Frontend",
-    icon: Code2,
-    color: "primary" as const,
-    skills: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "TailwindCSS", level: 92 },
-      { name: "Framer Motion", level: 85 },
-    ],
-  },
-  {
-    title: "Backend",
-    icon: Database,
-    color: "secondary" as const,
-    skills: [
-      { name: "Node.js / Express", level: 90 },
-      { name: "Python / Django", level: 85 },
-      { name: "PostgreSQL", level: 88 },
-      { name: "GraphQL", level: 82 },
-    ],
-  },
-  {
-    title: "DevOps",
-    icon: Cloud,
-    color: "accent" as const,
-    skills: [
-      { name: "Docker / Kubernetes", level: 80 },
-      { name: "AWS / GCP", level: 85 },
-      { name: "CI/CD Pipelines", level: 88 },
-      { name: "Linux Administration", level: 78 },
-    ],
-  },
+  //{
+  //  title: "Frontend",
+  //  icon: Code2,
+  //  color: "primary" as const,
+  //  skills: [
+  //    { name: "HTML", level: 80 },
+  //    { name: "CSS", level: 75 },
+  //    { name: "JS", level: 65 },
+  //    
+  //  ],
+  //},
+  //{
+  //  title: "Backend",
+  //  icon: Database,
+  //  color: "secondary" as const,
+  //  skills: [
+  //    { name: "Node.js / Express", level: 90 },
+  //    { name: "Python / Django", level: 85 },
+  //    { name: "PostgreSQL", level: 88 },
+  //    { name: "GraphQL", level: 82 },
+  //  ],
+  //},
+  //{
+  //  title: "DevOps",
+  //  icon: Cloud,
+  //  color: "accent" as const,
+  //  skills: [
+  //    { name: "Docker / Kubernetes", level: 80 },
+  //    { name: "AWS / GCP", level: 85 },
+  //    { name: "CI/CD Pipelines", level: 88 },
+  //    { name: "Linux Administration", level: 78 },
+  //  ],
+  //},
 ];
 
 const techIcons = [
-  { name: "React", icon: "⚛️" },
-  { name: "Node.js", icon: "🟢" },
-  { name: "TypeScript", icon: "📘" },
   { name: "Python", icon: "🐍" },
-  { name: "Docker", icon: "🐳" },
-  { name: "AWS", icon: "☁️" },
-  { name: "MongoDB", icon: "🍃" },
-  { name: "GraphQL", icon: "◈" },
+  { name: "Java", icon: "☕" },             
+  { name: "SQL", icon: "🛢️" },            
+  { name: "Data Structures", icon: "🌳" }, 
+  { name: "Machine Learning", icon: "🧠" }
 ];
 
 const Skills = () => {

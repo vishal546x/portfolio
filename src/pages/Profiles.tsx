@@ -8,52 +8,51 @@ import { Github, Code2, Award, Terminal, Zap, Trophy } from "lucide-react";
 const profiles = [
   {
     name: "GitHub",
-    username: "johndoe",
+    username:"vishal546x",
     Icon: Github,
-    url: "https://github.com",
+    url: "https://github.com/vishal546x",
     color: "primary" as const,
-    stats: "500+ contributions this year",
   },
   {
     name: "LeetCode",
-    username: "johndoe",
+    username: "Vishal_546",
     Icon: Code2,
-    url: "https://leetcode.com",
+    url: "https://leetcode.com/u/Vishal_546/",
     color: "secondary" as const,
-    stats: "300+ problems solved",
+    stats: "350+ problems solved",
   },
-  {
-    name: "HackerRank",
-    username: "johndoe",
-    Icon: Award,
-    url: "https://hackerrank.com",
-    color: "accent" as const,
-    stats: "5-star in Problem Solving",
-  },
-  {
-    name: "CodeChef",
-    username: "johndoe",
-    Icon: Trophy,
-    url: "https://codechef.com",
-    color: "primary" as const,
-    stats: "4-star rated",
-  },
+  //{
+  //  name: "HackerRank",
+  //  username: "johndoe",
+  //  Icon: Award,
+  //  url: "https://hackerrank.com",
+  //  color: "accent" as const,
+  //  stats: "5-star in Problem Solving",
+  //},
+  //{
+  //  name: "CodeChef",
+  //  username: "johndoe",
+  //  Icon: Trophy,
+  //  url: "https://codechef.com",
+  //  color: "primary" as const,
+  //  stats: "4-star rated",
+  //},
   {
     name: "SkillRack",
-    username: "johndoe",
+    username: "111723109056",
     Icon: Zap,
-    url: "https://skillrack.com",
+    url: "http://www.skillrack.com/profile/440038/ebef57af3693ff57b4b6b3fd0bfe41b91815c0dc",
     color: "secondary" as const,
-    stats: "1000+ programs",
+    stats: "1500+ programs",
   },
-  {
-    name: "Codeforces",
-    username: "johndoe",
-    Icon: Terminal,
-    url: "https://codeforces.com",
-    color: "accent" as const,
-    stats: "Expert rated",
-  },
+  //{
+  //  name: "Codeforces",
+  //  username: "johndoe",
+  //  Icon: Terminal,
+  //  url: "https://codeforces.com",
+  //  color: "accent" as const,
+  //  stats: "Expert rated",
+  //},
 ];
 
 const Profiles = () => {
@@ -106,39 +105,7 @@ const Profiles = () => {
             ))}
           </div>
 
-          {/* Stats Overview */}
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-            className="mt-20 glass-card p-8 rounded-2xl"
-          >
-            <h3 className="font-display text-2xl font-bold text-foreground mb-8 text-center">
-              Overall Statistics
-            </h3>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              {[
-                { label: "Problems Solved", value: "1500+" },
-                { label: "Contest Rating", value: "2000+" },
-                { label: "Badges Earned", value: "50+" },
-                { label: "Streak Days", value: "365+" },
-              ].map((stat, index) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.6 + index * 0.1 }}
-                  className="text-center"
-                >
-                  <p className="font-display text-4xl font-bold text-gradient mb-2">{stat.value}</p>
-                  <p className="font-body text-muted-foreground">{stat.label}</p>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
+          
         </div>
       </section>
     </div>
