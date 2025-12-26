@@ -29,14 +29,14 @@ const projects = [
     liveUrl: "https://chipcomm25.web.app/",
     githubUrl: "https://github.com",
   },
-  //{
-  //  title: "Social Media Analytics",
-  //  description: "Dashboard for tracking and visualizing social media metrics across multiple platforms.",
-  //  image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600",
-  //  tags: ["Python", "React", "D3.js", "PostgreSQL"],
-  //  liveUrl: "https://example.com",
-  //  githubUrl: "https://github.com",
-  //},
+  {
+    title: "Call Taxi Booking",
+    description: "Dashboard for tracking and visualizing social media metrics across multiple platforms.",
+    image: "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/taxi-booking-app.jpg",
+    tags: ["Java","Data Structures"],
+   // liveUrl: "https://example.com",
+    githubUrl: "https://github.com/vishal546x/call_taxi/tree/a9a86219ef0c7b4fac844f3343507e847da05dd4",
+  },
   //{
   //  title: "Fitness Tracking App",
   //  description: "Mobile-first application for tracking workouts, nutrition, and health metrics.",
