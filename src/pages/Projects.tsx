@@ -5,6 +5,30 @@ import ParticlesBackground from "@/components/ParticlesBackground";
 import ProjectCard from "@/components/ProjectCard";
 
 const projects = [
+   {
+    title: "Attendance Analytics",
+    description: "Web Application for attendance analytics",
+    image: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google-Analytics-4-Blog-Post-Header-2096x1182.width-1300_O3uqryV.jpg",
+    tags: ["HTML", "CSS", "JS","GCloud"],
+    liveUrl: "https://deploy-attendance-pink.vercel.app/",
+    githubUrl: "https://github.com/vishal546x/deploy-attendance.git",
+  },
+  {
+    title: "Call Taxi Booking",
+    description: "A call taxi booking application by using JAVA programming language",
+    image: "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/taxi-booking-app.jpg",
+    tags: ["Java","Data Structures"],
+   // liveUrl: "https://example.com",
+    githubUrl: "https://github.com/vishal546x/call_taxi/tree/a9a86219ef0c7b4fac844f3343507e847da05dd4",
+  },
+  {
+    title: "College Symposium Website",
+    description: "Developed a Website for our department symposium.",
+    image: "https://chipcomm25.web.app/logo.jpg",
+    tags: ["HTML", "CSS", "JS"],
+    liveUrl: "https://chipcomm25.web.app/",
+    githubUrl: "https://github.com",
+  },
   {
     title: "Heart Disease Prediction",
     description: "A model which predicts the heart-disease by the given inputs..",
@@ -21,30 +45,9 @@ const projects = [
     liveUrl: "https://placement-prediction-ejxe.onrender.com",
     githubUrl: "https://github.com/vishal546x/placement_prediction.git",
   },
-  {
-    title: "College Symposium Website",
-    description: "Developed a Website for our department symposium.",
-    image: "https://chipcomm25.web.app/logo.jpg",
-    tags: ["HTML", "CSS", "JS"],
-    liveUrl: "https://chipcomm25.web.app/",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Call Taxi Booking",
-    description: "Dashboard for tracking and visualizing social media metrics across multiple platforms.",
-    image: "https://www.mindinventory.com/blog/wp-content/uploads/2022/10/taxi-booking-app.jpg",
-    tags: ["Java","Data Structures"],
-   // liveUrl: "https://example.com",
-    githubUrl: "https://github.com/vishal546x/call_taxi/tree/a9a86219ef0c7b4fac844f3343507e847da05dd4",
-  },
-  //{
-  //  title: "Fitness Tracking App",
-  //  description: "Mobile-first application for tracking workouts, nutrition, and health metrics.",
-  //  image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600",
-  //  tags: ["React Native", "GraphQL", "Node.js"],
-  //  liveUrl: "https://example.com",
-  //  githubUrl: "https://github.com",
-  //},
+  
+  
+ 
   //{
   //  title: "Crypto Portfolio Tracker",
   //  description: "Real-time cryptocurrency portfolio management with price alerts and market analysis.",
