@@ -172,9 +172,9 @@ const Index = () => {
                 transition={{ delay: 0.2 }}
                 className="font-body text-lg text-muted-foreground mb-6 leading-relaxed"
               >
-                I'm a passionate full-stack developer with expertise in building scalable web applications. 
-                With over 5 years of experience, I've worked with startups and enterprises to deliver 
-                high-quality software solutions.
+               I am a passionate Java developer with a strong foundation in Core Java and object-oriented programming concepts. 
+                I have practiced Java through academic and mini projects, focusing on logic building, collections, exception handling, and basic data structures.
+                As a fresher, I am eager to learn, improve my problem-solving skills, and apply my Java knowledge to build reliable and efficient software solutions
               </motion.p>
 
               <motion.p
@@ -184,8 +184,8 @@ const Index = () => {
                 transition={{ delay: 0.3 }}
                 className="font-body text-lg text-muted-foreground mb-8 leading-relaxed"
               >
-                My tech stack includes React, Node.js, TypeScript, Python, and cloud technologies. 
-                I love solving complex problems and turning ideas into reality through code.
+               My technical skill set is centered around Core Java, including object-oriented programming, collections, exception handling, and basic data structures.
+                I enjoy solving logical problems and turning ideas into working programs through clean and efficient Java code.
               </motion.p>
 
               <motion.div
