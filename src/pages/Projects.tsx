@@ -22,13 +22,14 @@ const projects = [
     githubUrl: "https://github.com/vishal546x/call_taxi/tree/a9a86219ef0c7b4fac844f3343507e847da05dd4",
   },
   {
-    title: "College Symposium Website",
+    title: "ChipComm-2K25",
     description: "Developed a Website for our department symposium.",
     image: "https://chipcomm25.web.app/logo.jpg",
     tags: ["HTML", "CSS", "JS"],
     liveUrl: "https://chipcomm25.web.app/",
     githubUrl: "https://github.com",
   },
+  
   {
     title: "Heart Disease Prediction",
     description: "A model which predicts the heart-disease by the given inputs..",
