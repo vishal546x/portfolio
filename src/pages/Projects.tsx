@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "ChipComm-2K25",
-    description: "Developed a Website for our department symposium.",
+    description: "Developed a Website for my department symposium.",
     image: "https://chipcomm25.web.app/logo.jpg",
     tags: ["HTML", "CSS", "JS"],
     liveUrl: "https://chipcomm25.web.app/",
@@ -45,6 +45,14 @@ const projects = [
     tags: ["HTML", "CSS", "Python"],
     liveUrl: "https://placement-prediction-ejxe.onrender.com",
     githubUrl: "https://github.com/vishal546x/placement_prediction.git",
+  },
+   {
+    title: "ChipComm-2K26",
+    description: "Developed a Website for my department symposium.",
+    image: "https://chipcomm25.web.app/logo.jpg",
+    tags: ["React"],
+    liveUrl: "https://chipcomm26.vercel.app/",
+    githubUrl: "https://github.com/vishal546x/orbital-uplink.git",
   },
   
   
