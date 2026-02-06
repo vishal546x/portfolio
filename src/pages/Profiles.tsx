@@ -19,7 +19,7 @@ const profiles = [
     Icon: Code2,
     url: "https://leetcode.com/u/Vishal_546/",
     color: "secondary" as const,
-    stats: "350+ problems solved",
+    stats: "450+ problems solved",
   },
   //{
   //  name: "HackerRank",
