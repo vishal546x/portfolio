@@ -15,7 +15,7 @@ const Index = () => {
     { icon: Award, label: "Certifications", value: "15+" },
   ];
 
-  const resumeLink = "https://drive.google.com/file/d/1I6U9LGZ4ukjB7ZJObRpUEQopSbg4PajQ/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1BBZCIZ2qxqbxPwpiUZ2_vLMdrM_XAjH_/view?usp=sharing";
   const profileImage = "https://github.com/vishal546x.png"; 
 
   return (
